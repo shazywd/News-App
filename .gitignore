@@ -1,0 +1,62 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Production
+.env.production
+.env.local
+.env.*.local
+.env
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor configs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Coverage
+coverage/
+
+# Cache
+.cache/
+.next/
+out/
+*.tsbuildinfo
+turbo/
+
+# Test
+jest-test-results.json
+
+# Optional: Tailwind JIT cache
+.tailwind/
+
+# Optional: Linux/Mac swap or lock files
+*.swp
+*.lock
+
+# Optional: Ignore environment secrets
+.env
+.env.development
+.env.test
+
+# Optional: GitHub folder
+.github/
+
+# Optional: local dev stuff
+*.local.*
