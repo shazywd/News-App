@@ -67,7 +67,7 @@ export default function NewsDetailPage() {
           />
         </div>
 
-        <div className="flex gap-4 items-center mb-6 p-4 bg-gray-50 dark:bg-gray-800/90 rounded-lg">
+        <div className="flex gap-4 items-center mb-6 p-4 bg-white dark:bg-transparent rounded-lg border border-gray-200 dark:border-gray-700">
           <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center text-blue-600 dark:text-blue-400 font-bold text-xl mr-4">
             {author.name.charAt(0)}
           </div>
