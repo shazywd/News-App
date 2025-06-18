@@ -60,7 +60,7 @@ export default function NewsDetailPage() {
 
         <div className="mb-6">
           <img
-            onError={(e) => (e.target.src = "/no_img.jpg")}
+            onError={(e: any) => (e.target.src = "/no_img.jpg")}
             src={`https://picsum.photos/800/400?random=${post.id}`}
             alt="Sample Post"
             className="w-full h-64 object-cover rounded-lg"

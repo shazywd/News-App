@@ -21,7 +21,7 @@ export const NewsCard = ({ post }: any) => {
           className="h-44 rounded-t-lg w-full object-cover shadow-md"
           src={`https://picsum.photos/800/400?random=${post.id}`}
           alt="Heart Balloons"
-          onError={(e) => (e.target.src = "/no_img.jpg")}
+          onError={(e: any) => (e.target.src = "/no_img.jpg")}
         />
 
         <div className="flex flex-col px-3 gap-5 pt-4 pb-5 ">
